@@ -14,8 +14,9 @@
      --background-secondary: linear-gradient(180deg, rgba(23,0,5,1) 12%, rgba(0,0,0,1) 67%);
      --font-primary: 'Rajdhani';
 
-    --primary-color: #170D16F2;
+     --primary-color: #170D16F2;
      --dark-primary-color: #170D16;
+     --dark-neon-green-color: #38ab6f;
 
      --neon-red-color: #FF003C;
      --neon-blue-color: #72EAF8;
@@ -25,6 +26,7 @@
     --light-primary-color: #170D1680;
     --light-neon-red-color: #FF003C80;
     --light-neon-blue-color: #72EAF880;
+    --light-neon-yellow-color: #F3E600D6;
  }
 
  /* ===============
@@ -53,8 +55,14 @@
  }
 
  /* Top center bar icons and channel name color */
-.base-ZDDK0g,  #app-mount .iconWrapper-2awDjA svg {
+.base-ZDDK0g,
+#app-mount .iconWrapper-2awDjA svg {
      color: var(--neon-blue-color);
+ }
+
+/* Channmel description */
+ .children-3xh0VB .topic-11NuQZ {
+    color: var(--light-neon-yellow-color);
  }
 
  .base-ZDDK0g {
@@ -88,11 +96,11 @@
     border-bottom: 1px solid var(--neon-red-color);
 }
 
-.layerContainer-2v_Sit .container-2c4_8A button {
+.layerContainer-2v_Sit .container-2c4_8A > button {
     background: var(--neon-red-color);
 }
 
-.layerContainer-2v_Sit .container-2c4_8A button:hover {
+.layerContainer-2v_Sit .container-2c4_8A > button:hover {
     background: var(--light-neon-red-color);
 }
 
@@ -112,6 +120,10 @@
 .layerContainer-2v_Sit .header-1w9Q93,
 .layerContainer-2v_Sit .footer-5ji8u1 {
     background: var(--primary-color);
+}
+
+.layerContainer-2v_Sit .messageGroupCozy-3v_RqN {
+    background: black;
 }
 
  /* ===============
@@ -174,6 +186,11 @@
      color: var(--neon-blue-color);
  }
 
+/* Unread message in channel */
+ .containerDefault-YUSmu3 .unread-36eUEm {
+     background: var(--neon-blue-color);
+ }
+
  /* Selected channel background color */
  .modeSelected-3DmyhH .content-1gYQeQ, .modeSelected-3DmyhH:hover .content-1gYQeQ {
      background: var(--light-neon-red-color);
@@ -214,10 +231,45 @@
     color: var(--light-neon-blue-color);
 }
 
+/* Emotes menu after clicking on message */
+.wrapper-3u51GQ .emojiPicker-6YCk8a {
+    background: black;
+}
+
 /* Emotes menu */
  .contentWrapper-3vHNP2 {
      background: black;
  }
+
+/* Message reply */
+.message-2CShn3 .repliedMessage-3Z6XBG::before {
+    border-color: var(--neon-blue-color);
+}
+
+/* New messages alert at top of the screen */
+.messagesWrapper-RpOMA3 .newMessagesBar-1hF-9G {
+    background: var(--dark-neon-green-color);
+}
+
+/* Jump to new messages */
+.messagesWrapper-RpOMA3 .jumpToPresentBar-1cEnH0 {
+    background: var(--dark-neon-green-color);
+}
+
+/* New thread right side popup */
+.container-3XgAHv .container-1RZJZM .chat-1rZYgu {
+    background: var(--primary-color);
+}
+
+.container-3XgAHv .container-1RZJZM .container-ZMc96U {
+    background: black;
+    border-bottom: 1px solid var(--neon-red-color);
+}
+
+/* Welcome message at new channel */
+.chatContent-3KubbW .content-2a4AW9 .container-1yy5xN h1 {
+    color: var(--neon-blue-color);
+}
 
  /* Code template */
  .markup-eYLPri code {
@@ -363,6 +415,21 @@
     color: var(--neon-red-color);
 }
 
+.listItemWrapper-3d87LP .childWrapper-1j_1ub {
+    background: none !important;
+}
+
+/* New message from user */
+.wrapper-28eC3z .lowerBadge-3WTshO .numberBadge-37OJ3S {
+    background: var(--neon-blue-color) !important;
+    color: black;
+}
+
+/* Unread message */
+.listItem-3SmSlK .pill-22lZHo .item-2LIpTv {
+    background: var(--neon-red-color);
+}
+
 /* Folders with servers */
 .folder-241Joy .closedFolderIconWrapper-3tRb2d {
     background: var(--neon-red-color);
@@ -387,6 +454,27 @@
     ===============
  */
 
+ /* Friends list container */
+.container-2cd8Mz .peopleColumn-1wMU14 {
+    background: linear-gradient(180deg, rgba(23,0,5,1) 12%, rgba(0,0,0,1) 67%);
+}
+
+.container-2cd8Mz .container-ZMc96U {
+    background: black;
+    box-sizing: content-box;
+    border-bottom: 2px solid red;
+}
+
+/* Friends icons */
+.container-2cd8Mz .peopleColumn-1wMU14 .peopleListItem-u6dGxF .actions-YHvpIT svg {
+    color: var(--neon-blue-color);
+}
+
+/* Current friends online counter */
+.container-2cd8Mz .peopleColumn-1wMU14 .title-x4dI75 {
+    color: var(--neon-blue-color);
+}
+
 /* Active friends in game etc. */
 .container-1oAagU h3 {
     color: var(--neon-blue-color) !important;
@@ -400,6 +488,45 @@
     color: var(--neon-blue-color) !important;
 }
 
+/* Find or start call button */
+.base-2jDfDU .sidebar-1tnWFu .searchBar-3TnChZ {
+    border-bottom: 2px solid var(--neon-red-color);
+    background: black;
+}
+
+.base-2jDfDU .sidebar-1tnWFu .searchBar-3TnChZ button {
+    border-bottom: 1px solid var(--neon-blue-color);
+}
+
+.base-2jDfDU .scroller-WSmht3 .channel-1Shao0 {
+    background: black;
+    margin-bottom: .25rem;
+}
+
+/* Private messages header */
+.privateChannelsHeaderContainer-1UWASm .headerText-1qIDDT {
+    color: var(--neon-blue-color);
+}
+
+/* Search channels and private messages */
+.focusLock-2tveLW .container-qBnZJg {
+    background: black !important;
+}
+
+.focusLock-2tveLW .container-qBnZJg .quickswitcher-pKcM9U > input{
+    border-bottom: 1px solid var(--neon-red-color);
+}
+
+/* Nitro page */
+.homeWrapperNormal-bu1BS6 .headerBar-1dSpQr {
+    background: black;
+    box-sizing: content-box;
+    border-bottom: 2px solid var(--neon-red-color);
+}
+
+.homeWrapperNormal-bu1BS6 .scroller-29cQFV {
+    background: linear-gradient(180deg, rgba(23,0,5,1) 12%, rgba(0,0,0,1) 67%);
+}
 
  /* ===============
      SCROLLS ALL OVER DISCORD
