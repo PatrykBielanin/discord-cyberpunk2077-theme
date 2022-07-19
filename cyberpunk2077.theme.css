@@ -192,9 +192,15 @@
  }
 
  /* Selected channel background color */
- .modeSelected-3DmyhH .content-1gYQeQ, .modeSelected-3DmyhH:hover .content-1gYQeQ {
+ .containerDefault-YUSmu3 .modeSelected-3DmyhH .content-1gYQeQ,
+ .containerDefault-YUSmu3 .modeSelected-3DmyhH:hover .content-1gYQeQ {
      background: var(--light-neon-red-color);
  }
+
+ .containerDefault-YUSmu3 .modeSelected-3DmyhH .content-1gYQeQ .icon-2W8DHg {
+     color: var(--neon-yellow-color);
+ }
+
 
 /* Icons next to channel name */
  .content-1gYQeQ .children-1MGS9G .iconItem-1EjiK0 svg {
@@ -488,6 +494,15 @@
     color: var(--neon-blue-color) !important;
 }
 
+/* No activity among friends */
+.container-1oAagU .emptyCard-KDifrB {
+    background: var(--dark-primary-color);
+}
+
+.container-1oAagU h5 {
+    color: var(--neon-red-color);
+}
+
 /* Find or start call button */
 .base-2jDfDU .sidebar-1tnWFu .searchBar-3TnChZ {
     border-bottom: 2px solid var(--neon-red-color);
@@ -498,9 +513,15 @@
     border-bottom: 1px solid var(--neon-blue-color);
 }
 
+/* Private messages list of users on left side */
 .base-2jDfDU .scroller-WSmht3 .channel-1Shao0 {
     background: black;
     margin-bottom: .25rem;
+}
+
+.base-2jDfDU .scroller-WSmht3 .channel-1Shao0 .selected-3veCBZ {
+    border: 1px solid var(--neon-red-color);
+    border-bottom-right-radius: 10px;
 }
 
 /* Private messages header */
