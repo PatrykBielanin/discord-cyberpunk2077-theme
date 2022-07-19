@@ -1,6 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Rajdhani');
-
- :root {
+:root {
      --background-primary: linear-gradient(180deg, rgba(23,0,5,1) 10%, rgba(0,0,0,1) 65%);
      --background-secondary: linear-gradient(180deg, rgba(23,0,5,1) 10%, rgba(0,0,0,1) 65%);
      --font-primary: 'Rajdhani';
@@ -116,6 +114,23 @@
 
 .layerContainer-2v_Sit .messageGroupCozy-3v_RqN {
     background: black;
+}
+
+/* Alert at top to accept terms */
+.layers-OrUESM .base-2jDfDU .notice-1x8lm- {
+    background: var(--neon-red-color);
+}
+
+.layers-OrUESM .base-2jDfDU .notice-1x8lm- > button:hover{
+    background: var(--light-neon-yellow-color);
+}
+
+.wrapper-2SplAX .buttonContainer-KMz3Ex > button {
+    background: var(--neon-red-color);
+}
+
+.wrapper-2SplAX .buttonContainer-KMz3Ex > button:hover {
+    background: var(--light-neon-red-color);
 }
 
  /* ===============
@@ -357,7 +372,10 @@
 /* Friends status */
 .container-2o3qEW
 .content-2a4AW9 h2 span{
-    color: var(--neon-blue-color);
+    font-family: var(--font-primary);
+    font-weight: bold;
+    letter-spacing: .15rem;
+    color: var(--neon-red-color);
 }
 
 /* ===============
@@ -518,6 +536,11 @@
 
 /* Private messages header */
 .privateChannelsHeaderContainer-1UWASm .headerText-1qIDDT {
+    color: var(--neon-blue-color);
+}
+
+/* Someone's typing dots */
+.chatContent-3KubbW .typingDots-1Y8dki .text-3S7XCz {
     color: var(--neon-blue-color);
 }
 

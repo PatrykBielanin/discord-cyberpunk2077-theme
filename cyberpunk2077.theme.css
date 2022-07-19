@@ -1,32 +1,32 @@
 /**
  * @name Cyberpunk 2077
- * @author Patryk Bielanin
+ * @author Patryk Bielanin | bielak#2500
  * @description Cyberpunk 2077 UI styled theme for better discord
  * @version 1.0.0
+ * @source https://github.com/PatrykBielanin/discord-cyberpunk2077-theme
  * @website https://github.com/PatrykBielanin/discord-cyberpunk2077-theme
- * @source https://github.com/PatrykBielanin/discord-cyberpunk2077-theme/blob/main/cyberpunk2077.theme.css
  */
 
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani');
 @import url('https://patrykbielanin.github.io/discord-cyberpunk2077-theme/base.css');
 
 :root {
-    --background-primary: linear-gradient(180deg, rgba(23,0,5,1) 10%, rgba(0,0,0,1) 65%);
-    --background-secondary: linear-gradient(180deg, rgba(23,0,5,1) 10%, rgba(0,0,0,1) 65%);
-    --font-primary: 'Rajdhani';
-    --primary-text-color: lightgray;
+    --background-primary: linear-gradient(180deg, rgba(23,0,5,1) 10%, rgba(0,0,0,1) 65%); /* Background gradient */
+    --background-secondary: linear-gradient(180deg, rgba(23,0,5,1) 10%, rgba(0,0,0,1) 65%); /* Background gradient */
+    --font-primary: 'Rajdhani'; /* Font */
+    --primary-text-color: lightgray; /* Font color */
 
-    --primary-color: #170D16F2;
-    --dark-primary-color: #170D16;
-    --dark-neon-green-color: #38ab6f;
+    --primary-color: #170D16F2; /* Background color mainly used for popups */
+    --dark-primary-color: #170D16; /* Darker background color mainly used for popups */
+    --dark-neon-green-color: #38ab6f; /* Dark version of used green color */
 
-    --neon-red-color: #FF003C;
-    --neon-blue-color: #72EAF8;
-    --neon-yellow-color: #F3E600;
-    --neon-green-color: #47D58B;
+    --neon-red-color: #FF003C; /* Red color used in whole theme */
+    --neon-blue-color: #72EAF8; /* Blue color used in whole theme */
+    --neon-yellow-color: #F3E600; /* Yellow color used in whole theme */
+    --neon-green-color: #47D58B; /* Green color used in whole theme */
 
-   --light-primary-color: #170D1680;
-   --light-neon-red-color: #FF003C80;
-   --light-neon-blue-color: #72EAF880;
-   --light-neon-yellow-color: #F3E600D6;
+   --light-primary-color: #170D1680; /* Lighter version of primary color */
+   --light-neon-red-color: #FF003C80; /* Lighter version of red color */
+   --light-neon-blue-color: #72EAF880; /* Lighter version of blue color */
+   --light-neon-yellow-color: #F3E600D6; /* Lighter version of yellow color */
 }
