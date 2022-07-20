@@ -214,6 +214,26 @@
      color: var(--light-neon-blue-color);
  }
 
+ /* Users in speaking channel */
+ .containerDefault-YUSmu3 .voiceUser-3nRK-K .content-1Tgc42 .username-vAneIW {
+     color: var(--light-neon-red-color);
+     font-weight: bold;
+ }
+
+ /* Speaking username lighter color */
+  .containerDefault-YUSmu3 .voiceUser-3nRK-K .content-1Tgc42 .usernameSpeaking-3FKv6H {
+      color: var(--neon-red-color);
+  }
+
+ /* Speaking user avatar color */
+  .containerDefault-YUSmu3 .voiceUser-3nRK-K .content-1Tgc42 .avatarSpeaking-2pCGrZ {
+      box-shadow: inset 0 0 0 1.5px var(--light-neon-yellow-color);
+  }
+
+  /* Live badge next to username */
+   .containerDefault-YUSmu3 .list-2x9Cl9 .icons-2mwuFp .liveSmall-1Urjcy {
+       background: var(--neon-red-color) !important;
+   }
 
  /* ===============
      SERVERS AND WINDOW BAR
@@ -363,6 +383,11 @@
  .panels-3wFtMD .contents-3ca1mk {
      color: var(--neon-blue-color);
  }
+
+ /* Currently speaking avatar border */
+ .container-YkUktl .avatarWrapper-1B9FTW .avatar-1EWyVD .avatarStack-3vfSFa .avatarSpeaking-33RRJU {
+     `box-shadow: inset 0 0 0 2px var(--neon-yellow-color);
+}
 
  /* ===============
      RIGHT FRIENDS LIST
