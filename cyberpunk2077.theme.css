@@ -16,17 +16,10 @@
     --font-primary: 'Rajdhani'; /* Font */
     --primary-text-color: lightgray; /* Font color */
 
-    --primary-color: #170D16F2; /* Background color mainly used for popups */
-    --dark-primary-color: #170D16; /* Darker background color mainly used for popups */
-    --dark-neon-green-color: #38ab6f; /* Dark version of used green color */
-
-    --neon-red-color: #FF003C; /* Red color used in whole theme */
-    --neon-blue-color: #72EAF8; /* Blue color used in whole theme */
-    --neon-yellow-color: #F3E600; /* Yellow color used in whole theme */
-    --neon-green-color: #47D58B; /* Green color used in whole theme */
-
-   --light-primary-color: #170D1680; /* Lighter version of primary color */
-   --light-neon-red-color: #FF003C80; /* Lighter version of red color */
-   --light-neon-blue-color: #72EAF880; /* Lighter version of blue color */
-   --light-neon-yellow-color: #F3E600D6; /* Lighter version of yellow color */
+    --primary: 23, 13, 22;  /* Background color mainly used for popups */
+    --red: 255, 0, 60; /* Use RGB values */
+    --blue: 114, 234, 248; /* Use RGB values */
+    --yellow: 243, 230, 0; /* Use RGB values */
+    --green: 71, 213, 139; /* Use RGB values */
+    --dark-green: 56, 171, 111; /* Use RGB values */
 }
