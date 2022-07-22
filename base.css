@@ -1,24 +1,24 @@
 :root {
-     --background-primary: linear-gradient(180deg, rgba(23,0,5,1) 10%, rgba(0,0,0,1) 65%);
-     --background-secondary: linear-gradient(180deg, rgba(23,0,5,1) 10%, rgba(0,0,0,1) 65%);
-     --font-primary: 'Rajdhani';
-     --primary-text-color: lightgray;
+    --background-primary: linear-gradient(180deg, rgba(23,0,5,1) 10%, rgba(0,0,0,1) 65%);
+    --background-secondary: linear-gradient(180deg, rgba(23,0,5,1) 10%, rgba(0,0,0,1) 65%);
+    --font-primary: 'Rajdhani';
+    --primary-text-color: lightgray;
 
-     --primary: 23, 13, 22;
-     --red: 255, 0, 60;
-     --blue: 114, 234, 248;
-     --yellow: 243, 230, 0;
-     --green: 71, 213, 139;
-     --dark-green: 56, 171, 111;
+    --primary: 23, 13, 22;
+    --red: 255, 0, 60;
+    --blue: 114, 234, 248;
+    --yellow: 243, 230, 0;
+    --green: 71, 213, 139;
+    --dark-green: 56, 171, 111;
 
-     --primary-color: rgba(var(--primary), 0.9);
-     --dark-primary-color: rgba(var(--primary), 1);
-     --light-primary-color: rgba(var(--primary), 0.6);
+    --primary-color: rgba(var(--primary), 0.9);
+    --dark-primary-color: rgba(var(--primary), 1);
+    --light-primary-color: rgba(var(--primary), 0.6);
 
-     --neon-red-color: rgba(var(--red), 1);
-     --neon-blue-color: rgba(var(--blue), 1);
-     --neon-yellow-color: rgba(var(--yellow), 1);
-     --neon-green-color: rgba(var(--green), 1);
+    --neon-red-color: rgba(var(--red), 1);
+    --neon-blue-color: rgba(var(--blue), 1);
+    --neon-yellow-color: rgba(var(--yellow), 1);
+    --neon-green-color: rgba(var(--green), 1);
 
     --light-neon-red-color: rgba(var(--red), 0.5);
     --light-neon-blue-color: rgba(var(--blue), 0.65);
@@ -37,6 +37,11 @@
     --header-primary: var(--neon-blue-color);
     --header-secondary: var(--light-neon-blue-color);
     --search-popout-option-fade: var(--primary-color);
+    --background-floating: var(--primary-color);
+    --background-modifier-accent: var(--light-neon-red-color);
+    --interactive-hover: var(--light-neon-blue-color);
+    --info-warning-foreground: var(--neon-yellow-color);
+    --background-mentioned: rgba(var(--yellow), 0.1);
  }
 
  /* ===============
@@ -332,6 +337,11 @@
     color: var(--light-neon-blue-color);
 }
 
+/* Reaction emote background */
+.chatContent-3KubbW .container-2sjPya .reaction-3vwAF2 {
+    background: var(--primary-color);
+}
+
 /* Emotes menu after clicking on message */
 .wrapper-3u51GQ .emojiPicker-6YCk8a {
     background: black;
@@ -488,7 +498,7 @@
 
 /* Username color of popup */
 .layer-2aCOJ3 .headerText-1-WmDq span:first-child {
-    color: var(--neon-yellow-color);
+    color: var(--neon-blue-color);
 }
 
 /* Roles and notes popup colors */
@@ -496,6 +506,15 @@
     color: var(--neon-blue-color) !important;
 }
 
+/* Adding roles popup */
+.layerContainer-2v_Sit .container-2O1UgZ {
+    background: var(--primary-color);
+}
+
+/* User roles badges */
+.layerContainer-2v_Sit .layer-2aCOJ3 .rolesList-3uZoaa .role-2TIOKu {
+    border-bottom: 1px solid var(--dark-primary-color);
+}
 
  /* ===============
      LEFT SERVERS LIST BAR
@@ -561,6 +580,11 @@
  .theme-dark .focused-2FU0YH,
  .theme-light .focused-2FU0YH{
      background: var(--dark-primary-color);
+ }
+
+ /* Button - go to public servers list */
+ #bd-pub-button:hover {
+     background: var(--light-neon-red-color);
  }
 
  /* ===============

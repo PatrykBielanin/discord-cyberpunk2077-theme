@@ -15,8 +15,13 @@ Download [this theme](https://betterdiscord.app/) and copy files to your better 
 
 ## Screenshots
 
-![ScreenShot](https://i.imgur.com/M68kojm.png)
+![ScreenShot](https://i.imgur.com/Ya1uq38.png)
 
+![ScreenShot](https://i.imgur.com/SdK6PQU.png)
+
+![ScreenShot](https://i.imgur.com/CCE0exv.png)
+
+![ScreenShot](https://i.imgur.com/kmi8geP.png)
 
 ## Feedback/Support
 
