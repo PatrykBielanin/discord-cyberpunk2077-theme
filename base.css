@@ -357,6 +357,14 @@
     border-color: var(--neon-blue-color);
 }
 
+.container-A2jo65 .replyBar-1oi75v {
+    background: var(--light-neon-blue-color);
+}
+
+.container-A2jo65 .replyBar-1oi75v .replyLabel-WWnhHi{
+    color: white !important;
+}
+
 /* New messages alert at top of the screen */
 .messagesWrapper-RpOMA3 .newMessagesBar-1hF-9G {
     background: var(--dark-neon-green-color);
@@ -579,6 +587,10 @@
 
  .theme-dark .focused-2FU0YH,
  .theme-light .focused-2FU0YH{
+     background: var(--dark-primary-color);
+ }
+
+ .theme-dark .autocomplete-3NRXG8 {
      background: var(--dark-primary-color);
  }
 
