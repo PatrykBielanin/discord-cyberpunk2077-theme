@@ -42,6 +42,7 @@
     --interactive-hover: var(--light-neon-blue-color);
     --info-warning-foreground: var(--neon-yellow-color);
     --background-mentioned: rgba(var(--yellow), 0.1);
+    --interactive-active: var(--neon-yellow-color);
  }
 
  /* ===============
@@ -507,6 +508,43 @@
 /* Username color of popup */
 .layer-2aCOJ3 .headerText-1-WmDq span:first-child {
     color: var(--neon-blue-color);
+}
+
+.layerContainer-2v_Sit .root-8LYsGj {
+    border-bottom: 1px solid var(--light-neon-red-color);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    font-family: var(--font-primary);
+}
+
+.layerContainer-2v_Sit .body-1Ukv50 {
+    background: rgba(0,0,0, 0.5);
+}
+
+.layerContainer-2v_Sit .body-1Ukv50 .userInfoSection-2u2hir > h3 {
+    font-family: var(--font-primary);
+}
+
+.layerContainer-2v_Sit .body-1Ukv50 .connectedAccounts-fvr7-7 .connectedAccountsColumn-2LgTkZ {
+    border-bottom: 1px solid var(--neon-blue-color);
+}
+
+.layerContainer-2v_Sit .body-1Ukv50 .connectedAccounts-fvr7-7 .connectedAccountsColumn-2LgTkZ div {
+    background: var(--primary-color);
+}
+
+.layerContainer-2v_Sit .nameTag-2Nlmsy {
+    font-family: var(--font-primary);
+    font-weight: bold;
+}
+
+.layerContainer-2v_Sit .tabBarContainer-sCZC4w .item-3XjbnG  {
+    font-weight: bold;
+
+}
+
+.layerContainer-2v_Sit .body-1Ukv50 .userInfoSection-2u2hir a {
+    color: var(--neon-green-color);
 }
 
 /* Roles and notes popup colors */
