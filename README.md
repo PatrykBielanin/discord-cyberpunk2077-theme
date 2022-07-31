@@ -7,10 +7,10 @@
 Theme for Better Discord inspired by Cyberpunk 2077 user interface
 ## Installation
 
-Download [this theme](https://betterdiscord.app/) and copy files to your better discord themes folder
+Download [this theme](https://betterdiscord.app/theme/Cyberpunk%202077) and copy files to your better discord themes folder
 
 ```bash
-  link here
+  https://betterdiscord.app/theme/Cyberpunk%202077
 ```
 
 ## Screenshots

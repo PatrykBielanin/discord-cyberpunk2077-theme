@@ -230,25 +230,26 @@
  */
 
  /* Channel category bar */
-.wrapper-1S43wv {
-     border: 1px solid #7c1d1d;
-     border-bottom-right-radius: 10px;
-     padding: 1rem;
-     background: var(--dark-primary-color);
-     margin: 0 .5rem .5rem .5rem;
-
+ .wrapper-1S43wv {
+     position: relative;
+     box-sizing: border-box;
+     height: 34px;
+     padding-right: 8px;
+     padding-left: 16px;
+     box-shadow: inset 0px 0px 0px 1px var(--light-neon-red-color);
      display: flex;
-     flex-direction: row;
-     justify-content: center;
      align-items: center;
+     justify-content: space-between;
+     cursor: default;
+     border-bottom-right-radius: 10px;
+     font-weight: bold !important;
  }
 
  /* Channels container */
  .content-1gYQeQ {
      background: var(--dark-primary-color);
-     padding-left: 1rem;
-     margin-left: 1.5rem;
-     margin-bottom: .25rem;
+     margin-left: 18px;
+     padding: 0 6px;
  }
 
 /* Category and hash name color */
