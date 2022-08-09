@@ -403,8 +403,9 @@
  }
 
  .contentWrapper-3vHNP2 .navList-YSb9UB button[aria-selected="true"] {
-     background: var(--neon-green-color) !important;
-     color: var(--neon-yellow-color) !important;
+    background: transparent !important;
+    color: var(--neon-yellow-color) !important;
+    text-shadow: 0px 0px 25px var(--light-neon-yellow-color);
  }
 
  .contentWrapper-3vHNP2 .wrapper-1NNaWG,
