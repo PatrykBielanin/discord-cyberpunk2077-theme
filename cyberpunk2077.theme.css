@@ -2,7 +2,7 @@
  * @name Cyberpunk 2077
  * @author Patryk Bielanin | bielak#2500
  * @description Cyberpunk 2077 UI styled theme for better discord
- * @version 1.0.4
+ * @version 1.0.5
  * @source https://github.com/PatrykBielanin/discord-cyberpunk2077-theme
  * @website https://github.com/PatrykBielanin/discord-cyberpunk2077-theme
  * @donate https://www.paypal.com/donate/?hosted_button_id=PGVKB863SXYUQ
@@ -23,4 +23,8 @@
     --yellow: 243, 230, 0; /* Use RGB values */
     --green: 71, 213, 139; /* Use RGB values */
     --dark-green: 56, 171, 111; /* Use RGB values */
+
+    --avatar-circle: 0; /* Square avatar */
+    --avatar-rounded: 5px; /* Square avatars */
+    --avatar-border: 1px solid var(--neon-red-color); /* Border of avatar */
 }

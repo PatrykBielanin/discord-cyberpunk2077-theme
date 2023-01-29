@@ -27,6 +27,11 @@
 
     --dark-neon-green-color: rgb(var(--dark-green));
 
+    /* Variables for custiomization tool */
+    --avatar-circle: 0;
+    --avatar-rounded: 5px;
+    --avatar-border: 1px solid var(--neon-red-color);
+
     /* Discord variables */
     --brand-experiment: var(--neon-red-color);
     --brand-experiment-500: rgba(var(--red), 0.65);
@@ -521,6 +526,11 @@
      color: var(--neon-blue-color);
  }
 
+ /* File background */
+ .container-2sjPya .messageAttachment-CZp8Iv .attachment-1PZZB2 {
+     background: black;
+ }
+
  /* TimeStamp in messages */
  .timestamp-p1Df1m time {
      color: var(--neon-yellow-color);
@@ -549,9 +559,9 @@
 
  /* Avatars in message section */
  .avatar-2e8lTP {
-     border-radius: 0;
-     border-bottom-right-radius: 5px;
-     border: 1px solid var(--neon-red-color);
+     border-radius: var(--avatar-circle);
+     border-bottom-right-radius: var(--avatar-rounded);
+     border: var(--avatar-border);
  }
 
 /* Message action icons */
@@ -589,6 +599,11 @@
      box-shadow: inset 0 0 0 2px var(--neon-yellow-color);
 }
 
+.container-YkUktl,
+.container-1zzFcN {
+    background: black !important;
+}
+
  /* ===============
      RIGHT FRIENDS LIST
     ===============
@@ -601,6 +616,11 @@
     font-weight: bold;
     letter-spacing: .15rem;
     color: var(--neon-red-color);
+}
+
+.member-48YF_l,
+.members-3WRCEx {
+    background: none;
 }
 
 /* ===============
