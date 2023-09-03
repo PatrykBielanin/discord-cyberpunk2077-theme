@@ -69,7 +69,7 @@
 .title-31SJ6t {
      background: black !important;
      border-bottom: 2px solid var(--neon-red-color);
-     box-sizing: content-box;
+     box-sizing: border-box;
  }
 
  /* Top bar icons margin */
@@ -225,6 +225,7 @@
  #app-mount .header-3OsQeK {
      background: black;
      border-bottom: 2px solid var(--neon-red-color);
+     padding: 11px;
  }
 
 /* Server options popup */
@@ -307,7 +308,7 @@
  }
 
  /* Channel name color */
- .channelName-3KPsGw {
+ .name-28HaxV {
      color: var(--neon-blue-color);
  }
 
@@ -317,12 +318,19 @@
  }
 
  /* Selected channel background color */
- .containerDefault-YUSmu3 .modeSelected-3DmyhH .content-1gYQeQ,
- .containerDefault-YUSmu3 .modeSelected-3DmyhH:hover .content-1gYQeQ {
+ .modeSelected-3DmyhH .link-1_kTxV, .modeSelected-3DmyhH:hover .link-1_kTxV {
      background: var(--light-neon-red-color);
  }
 
- .containerDefault-YUSmu3 .modeSelected-3DmyhH .content-1gYQeQ .icon-2W8DHg {
+ .wrapperCommon-I1TMDb {
+    background: var(--light-primary-color);
+ }
+
+.link-1_kTxV {
+    background: var(--dark-primary-color);
+ }
+
+ .modeSelected-3DmyhH .link-1_kTxV svg {
      color: var(--neon-yellow-color);
  }
 
@@ -372,6 +380,11 @@
      border-radius: 0;
      background: var(--primary-color);
      border-bottom: 1px solid var(--neon-red-color);
+ }
+
+ /* Usernames font */
+ .username-h_Y3Us {
+    font-weight: bold;
  }
 
 /* Input icons */
@@ -595,13 +608,18 @@
  }
 
  /* Currently speaking avatar border */
- .container-YkUktl .avatarWrapper-1B9FTW .avatar-1EWyVD .avatarStack-3vfSFa .avatarSpeaking-33RRJU {
+ .avatarSpeaking-36V2PN {
      box-shadow: inset 0 0 0 2px var(--neon-yellow-color);
 }
 
 .container-YkUktl,
 .container-1zzFcN {
     background: black !important;
+}
+
+/* Actions buttons */
+.actionButtons-2vEOUh svg {
+    color: var(--neon-blue-color);
 }
 
  /* ===============
@@ -881,13 +899,17 @@
 
 .container-2cd8Mz .container-ZMc96U {
     background: black;
-    box-sizing: content-box;
+    box-sizing: border-box;
     border-bottom: 2px solid red;
 }
 
 /* Friends icons */
 .container-2cd8Mz .peopleColumn-1wMU14 .peopleListItem-u6dGxF .actions-YHvpIT svg {
     color: var(--neon-blue-color);
+}
+
+.theme-dark .children-3xh0VB:after {
+    background: none;
 }
 
 .container-2cd8Mz .peopleColumn-1wMU14 .inner-2pOSmK {
@@ -930,6 +952,7 @@
 .base-2jDfDU .sidebar-1tnWFu .searchBar-3TnChZ {
     border-bottom: 2px solid var(--neon-red-color);
     background: black;
+    box-sizing: border-box;
 }
 
 .base-2jDfDU .sidebar-1tnWFu .searchBar-3TnChZ button {
@@ -1316,6 +1339,82 @@
 .popout-1KHNAq {
     background: var(--primary-color);
 }
+
+/* ===============
+    EVENTS
+   ===============
+*/
+
+/* Create event modal */
+.theme-dark .separator-3C440w {
+    background: black;
+}
+
+.content-1OG56Q {
+    background: var(--light-primary-color) !important;
+}
+
+
+/* ===============
+    BROWSE CHANNELS
+   ===============
+*/
+
+/* Header */
+.theme-dark .header-3xB4vB, .theme-dark .themed-Hp1KC_ {
+    background: black;
+    border-bottom: 2px solid var(--neon-red-color);
+}
+
+/* Body page */
+.pageBody-23bo4p {
+    background: var(--background-primary);
+}
+
+/* Category header */
+.categoryRow-2VIZ6m .lineClamp1-1voJi7 {
+    color: var(--neon-green-color) !important;
+}
+
+/* Category row */
+.channelRow-4X_3fi {
+    background: var(--light-primary-color);
+}
+
+/* Create channel modal */
+.theme-dark .rootWithShadow-2hdL2J,
+.theme-dark .footerSeparator-3U8YsT,
+.modalContent-33IoUE {
+    background: black !important;
+}
+
+/* ===============
+    MEMBERS CHANNEL
+   ===============
+*/
+
+/* Members background */
+.thin-RnSY0a {
+    background: var(--background-primary);
+}
+
+/* Members div with tables */
+.theme-dark .container-2qjEOK, .theme-dark .page-2dwf_i {
+    background: transparent;
+}
+
+/* Members table */
+.mainTableContainer-3Nxvkd {
+    background: var(--light-primary-color);
+}
+
+/* Members header */
+.theme-dark .header-elFGge {
+    background: black;
+    border-bottom: 2px solid var(--neon-red-color);
+    padding: 7px;
+}
+
 
  /* ===============
      SCROLLS ALL OVER DISCORD

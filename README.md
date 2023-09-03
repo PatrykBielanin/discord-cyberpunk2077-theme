@@ -29,7 +29,7 @@ Download [this theme](https://betterdiscord.app/theme/Cyberpunk%202077) and copy
 
 ## Feedback/Support
 
-If you have any feedback or you need some help, please reach out to me at discord **bielak#2500**
+If you have any feedback or you need some help, please reach out to me at discord **bielak**
 
 [paypal-logo]: https://img.shields.io/static/v1?label=PayPal&message=Donate&style=flat-square&logo=paypal&color=blue
 [paypal-url]: https://www.paypal.com/donate/?hosted_button_id=PGVKB863SXYUQ
