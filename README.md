@@ -27,6 +27,16 @@ Download [this theme](https://betterdiscord.app/theme/Cyberpunk%202077) and copy
 
 ![ScreenShot](https://i.imgur.com/kmi8geP.png)
 
+## Plugins
+
+My theme support some of the most popular BetterDiscord plugins made by community. If you want me to style your favorite plugin send me a message and i will add it!
+
+### List of currently supported plugins:
+- Spotify controls
+- Server details
+- Friends notifications
+- Calltime counter
+
 ## Feedback/Support
 
 If you have any feedback or you need some help, please reach out to me at discord **bielak**
