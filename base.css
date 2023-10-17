@@ -374,7 +374,7 @@
  */
 
 /* Input message */
-.channelTextArea-1FufC0
+.channelTextArea-1deLlK
 .scrollableContainer-15eg7h
 {
   border-radius: 0;
@@ -388,7 +388,7 @@
 }
 
 /* Input icons */
-.channelTextArea-1FufC0
+.channelTextArea-1deLlK
 .buttons-uaqb-5
 .buttonWrapper-3YFQGJ {
   color: var(--light-neon-blue-color);
@@ -611,14 +611,40 @@
   box-shadow: inset 0 0 0 2px var(--neon-yellow-color);
 }
 
-.container-YkUktl,
-.container-1zzFcN {
+.container-1CH86i,
+.container-2NLBJg {
   background: black !important;
 }
 
 /* Actions buttons */
 .actionButtons-2vEOUh svg {
   color: var(--neon-blue-color);
+}
+
+/* Soundboard */
+#popout_208 .picker-20lcBA,
+#popout_208 .wrapper-1peqyq,
+#popout_208 .wrapper-22rqw6 {
+  background: var(--primary-color);
+}
+
+#popout_208 .container-1SX9VC {
+  background: var(--light-primary-color) !important;
+  border-bottom: 1px solid var(--neon-blue-color);
+}
+
+#popout_208 .sectionTitle-1T_AdY {
+  color: var(--neon-blue-color);
+}
+
+#popout_208 .soundAddButton-1FOn5u {
+  background: black;
+  border: 1px solid var(--neon-red-color) !important;
+}
+
+#popout_208 .soundButton-2P2Ua2 {
+  background: black;
+  border: 1px solid var(--light-neon-blue-color);
 }
 
 /* ===============
@@ -636,7 +662,9 @@
 }
 
 .member-48YF_l,
-.members-3WRCEx {
+.members-3WRCEx,
+.member-2gU6Ar,
+.members-2y1nVj {
   background: none;
 }
 
