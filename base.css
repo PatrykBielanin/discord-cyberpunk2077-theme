@@ -314,7 +314,7 @@
 }
 
 /* Unread message in channel */
-.containerDefault-YUSmu3 .modeUnread_f74c03 {
+.containerDefault__3187b .modeUnread_f74c03 {
   background: var(--neon-blue-color);
 }
 
@@ -342,23 +342,23 @@
 }
 
  /* Users in speaking channel */
-.containerDefault-YUSmu3 .voiceUser-3nRK-K .content-1Tgc42 .username-vAneIW {
+.containerDefault__3187b .voiceUser__0470a .content_b60865 .username__73ce9 {
   color: var(--light-neon-blue-color);
   font-weight: bold;
 }
 
 /* Speaking username lighter color */
-.containerDefault-YUSmu3 .voiceUser-3nRK-K .content-1Tgc42 .usernameSpeaking-3FKv6H {
+.containerDefault__3187b .voiceUser__0470a .content_b60865 .usernameSpeaking__78095 {
   color: var(--neon-blue-color);
 }
 
 /* Speaking user avatar color */
-.containerDefault-YUSmu3 .voiceUser-3nRK-K .content-1Tgc42 .avatarSpeaking-2pCGrZ {
+.containerDefault__3187b .voiceUser__0470a .content_b60865 .avatarSpeaking_c95053{
   box-shadow: inset 0 0 0 2px var(--light-neon-green-color);
 }
 
 /* Live badge next to username */
-  .containerDefault-YUSmu3 .list-2x9Cl9 .icons-2mwuFp .liveSmall-1Urjcy {
+  .containerDefault__3187b .list-2x9Cl9 .icons-2mwuFp .liveSmall-1Urjcy {
     background: var(--neon-red-color) !important;
   }
 /* ===============
@@ -482,15 +482,15 @@
 }
 
 /* Message reply */
-.message-2CShn3 .repliedMessage-3Z6XBG::before {
+.cozy_f5c119 .repliedMessage_e2bf4a:before {
   border-color: var(--neon-blue-color);
 }
 
-.container-A2jo65 .replyBar-1oi75v {
+.container__08420 .replyBar_b64d74 {
   background: var(--light-neon-blue-color);
 }
 
-.container-A2jo65 .replyBar-1oi75v .replyLabel-WWnhHi{
+.container__08420 .replyBar_b64d74 .replyLabel__401e8 {
   color: white !important;
 }
 
@@ -598,7 +598,8 @@
 }
 
 .container_d667ff,
-.container_ca50b9 {
+.container_ca50b9,
+.theme-dark .panel_bd8c76 {
   background: black !important;
 }
 
@@ -613,8 +614,8 @@
 }
 
  /* Currently speaking avatar border */
-.avatarSpeaking-36V2PN {
-  box-shadow: inset 0 0 0 2px var(--neon-yellow-color);
+.containerDefault__3187b .voiceUser__0470a .content_b60865 .avatarSpeaking_c95053 {
+  box-shadow: inset 0 0 0 2px var(--neon-yellow-color) !important;
 }
 
 /* Actions buttons */
