@@ -1390,36 +1390,36 @@
 */
 
 /* Main forum channel with posts */
-.theme-dark .container-3wLKDe {
+.theme-dark .container_b92032 {
   background: var(--primary-color);
-
+  --header-primary: var(--neon-yellow-color);
   --text-muted: var(--light-neon-blue-color);
   --text-brand: var(--neon-green-color);
   --background-modifier-selected: var(--light-neon-blue-color);
 }
 
 /* Search posts form  */
-.theme-dark .container-3wLKDe .form-25Aujy .titleContainer-2YK93J svg,
-.theme-dark .container-3wLKDe .form-25Aujy .inputMaxLength-3n06SD textarea {
+.theme-dark .container_b92032 .form__97f5c .titleContainer_e517ed svg,
+.theme-dark .container_b92032 .form__97f5c .inputMaxLength__842f4 textarea {
   color: var(--neon-blue-color) !important;
 }
 
-.theme-dark .container-3wLKDe .form-25Aujy .inputMaxLength-3n06SD textarea::placeholder {
+.theme-dark .container_b92032 .form__97f5c .inputMaxLength__842f4 textarea::placeholder {
   color: var(--light-neon-blue-color) !important;
 }
 
-.theme-dark .container-3wLKDe .matchingPostsRow-2IiEQ1 h3 {
+.theme-dark .container_b92032 .matchingPostsRow__6cdb0 h3 {
   color: var(--light-neon-green-color) !important;
 }
 
 /* Shift + enter to create a new post */
-.startPostHelp-RNMDiS .keybindShortcut-3zF1P9 .key-N5VmHN {
+.startPostHelp__71437 .keyboardShortcut_b69e32 .key__6a8d9 {
   color: var(--dark-primary-color) !important;
   background: var(--neon-green-color);
   box-shadow: inset 0 -4px 0 var(--dark-neon-green-color);
 }
 
-.startPostHelp-RNMDiS .text-xs-normal-3SiVjE {
+.startPostHelp__71437 .text-xs-normal__46d75 {
   color: var(--neon-blue-color) !important;
 }
 
@@ -1434,13 +1434,14 @@
 }
 
 /* Post badges - categories */
-.tag-19iIl1, .pill-3pRQlO {
+.pill_f055c3,
+.tag__40098 {
   --background-tertiary: var(--light-neon-red-color) !important;
   --background-secondary-alt: var(--light-neon-red-color) !important;
 }
 
 /* Selected category */
-.pill-3pRQlO.selected-24z1Ou {
+.pill_f055c3.selected__50db4 {
   border-color: var(--neon-yellow-color) !important;
 }
 
@@ -1466,7 +1467,7 @@
 }
 
 /* Sort by activity */
-.layer__6b5c3 .sortPopout-zN4OCq  {
+.layer_c14d31 .sortPopout-zN4OCq {
   --background-modifier-selected: var(--light-primary-color);
   border: 1px solid var(--neon-red-color);
   margin-top: 1rem;
