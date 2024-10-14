@@ -1,5 +1,5 @@
 
-![Logo](https://i.imgur.com/iQBKIra.png)
+![Logo](https://cloud.pbielanin.pl/pbielanin/images/cyberpunk/logo.png)
 
 
 # Cyberpunk 2077 Theme [![Paypal][paypal-logo]][paypal-url] [![Donate][coffe-logo]][coffe-url] [![Download][download-logo]][download-url] [![Website][website-logo]][website-url]
@@ -19,13 +19,13 @@ Download [this theme](https://betterdiscord.app/theme/Cyberpunk%202077) and copy
 
 ## Screenshots
 
-![ScreenShot](https://i.imgur.com/Ya1uq38.png)
+![ScreenShot](https://cloud.pbielanin.pl/pbielanin/images/cyberpunk/preview1.png)
 
-![ScreenShot](https://i.imgur.com/SdK6PQU.png)
+![ScreenShot](https://cloud.pbielanin.pl/pbielanin/images/cyberpunk/preview2.png)
 
-![ScreenShot](https://i.imgur.com/CCE0exv.png)
+![ScreenShot](https://cloud.pbielanin.pl/pbielanin/images/cyberpunk/preview3.png)
 
-![ScreenShot](https://i.imgur.com/kmi8geP.png)
+![ScreenShot](https://cloud.pbielanin.pl/pbielanin/images/cyberpunk/preview4.png)
 
 ## Plugins
 
