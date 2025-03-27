@@ -302,6 +302,7 @@
   /* Category and hash name color */
   .content__99f8c .wrapper__29444,
   .name__29444 {
+    font-weight: 700;
     color: var(--neon-red-color);
   }
 
@@ -680,7 +681,8 @@
 
   /* Friends status */
   .container_c8ffbb
-  .members_c8ffbb h3 span{
+  .members_c8ffbb
+  .container__13cf1{
     font-family: var(--font-primary);
     font-weight: bold;
     letter-spacing: .15rem;
@@ -914,19 +916,6 @@
   /* Unread message */
   .listItem__650eb .pill_ed9a5f .item__58105 {
     background: var(--neon-red-color);
-  }
-
-  /* Folders with servers */
-  .folder__48112 .closedFolderIconWrapper__48112 {
-    background: var(--neon-red-color);
-  }
-
-  .folder__48112 .expandedFolderIconWrapper__48112 {
-    background: var(--light-neon-red-color);
-  }
-
-  .folder__48112 .expandedFolderIconWrapper__48112 svg {
-    color: var(--neon-yellow-color) !important;
   }
 
    /* Text on whole discord, messages etc. */
