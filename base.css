@@ -4,6 +4,11 @@
     --font-primary: 'Rajdhani';
     --primary-text-color: lightgray;
 
+    --background-gradient-chat: black;
+    --background-gradient-app-frame: var(--dark-primary-color);
+    --custom-theme-base-color: var(--primary-color);
+    --custom-theme-base-color-amount: 0;
+
     --primary: 23, 13, 22;
     --red: 255, 0, 60;
     --blue: 114, 234, 248;
