@@ -3,11 +3,7 @@
     --background-secondary: linear-gradient(180deg, rgba(23,0,5,.75) 10%, rgba(0,0,0,1) 65%);
     --font-primary: 'Rajdhani';
     --primary-text-color: lightgray;
-
-    --background-gradient-chat: black;
-    --background-gradient-app-frame: var(--dark-primary-color);
-    --custom-theme-base-color: var(--primary-color);
-    --custom-theme-base-color-amount: 0;
+    
 
     --primary: 23, 13, 22;
     --red: 255, 0, 60;
@@ -56,6 +52,22 @@
     --search-popout-date-picker-hint-value-background-hover: rgba(var(--red), 0.8);
     --button-secondary-background: rgba(var(--blue), 0.75);
     --__lottieIconColor: var(--neon-blue-color);
+    --background-gradient-high: var(--background-secondary);
+    --background-gradient-chat: black;
+    --background-gradient-app-frame: var(--dark-primary-color);
+
+    /* Discord custom variables */
+    --custom-theme-text-color: var(--primary-text-color);
+    --custom-theme-base-color-hsl: 200 30% 20%;
+
+    --custom-theme-base-ammount: 0% !important;
+    --custom-theme-text-color-amount: 50%;
+
+    --custom-theme-border-color: var(--neon-blue-color);
+    --custom-theme-border-color-amount: 50%;
+
+    --custom-theme-base-color: var(--dark-primary-color);
+    --custom-theme-base-color-amount: 100%;
   }
 
   /* ===============
@@ -641,6 +653,10 @@
    /* Controlls icons color  */
   .panels_c48ade .button__67645 {
     color: var(--neon-blue-color);
+  }
+
+  .button_e131a9 {
+      --border-faint: var(--neon-blue-color);
   }
 
    /* Currently speaking avatar border */
