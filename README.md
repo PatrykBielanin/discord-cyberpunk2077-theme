@@ -1,8 +1,8 @@
 
-![Logo](https://cloud.pbielanin.pl/pbielanin/images/cyberpunk/logo.png)
+![Logo](https://i.imgur.com/bQhrfHd.png)
 
 
-# Cyberpunk 2077 Theme [![Paypal][paypal-logo]][paypal-url] [![Donate][coffe-logo]][coffe-url] [![Download][download-logo]][download-url] [![Website][website-logo]][website-url]
+# Cyberpunk 2077 Theme [![Paypal][paypal-logo]][paypal-url] [![Donate][coffe-logo]][coffe-url] [![Download][download-logo]][download-url]
 
 Theme for Better Discord inspired by Cyberpunk 2077 user interface.
 
@@ -19,27 +19,15 @@ Download [this theme](https://betterdiscord.app/theme/Cyberpunk%202077) and copy
 
 ## Screenshots
 
-![ScreenShot](https://cloud.pbielanin.pl/pbielanin/images/cyberpunk/preview1.png)
-
-![ScreenShot](https://cloud.pbielanin.pl/pbielanin/images/cyberpunk/preview2.png)
-
-![ScreenShot](https://cloud.pbielanin.pl/pbielanin/images/cyberpunk/preview3.png)
-
-![ScreenShot](https://cloud.pbielanin.pl/pbielanin/images/cyberpunk/preview4.png)
-
-## Plugins
-
-My theme support some of the most popular BetterDiscord plugins made by community. If you want me to style your favorite plugin send me a message and i will add it!
-
-### List of currently supported plugins:
-- Spotify controls
-- Server details
-- Friends notifications
-- Calltime counter
+![ScreenShot](https://i.imgur.com/KTJs49k.png)
 
 ## Feedback/Support
 
 If you have any feedback or you need some help, please reach out to me at discord **bielak**
+
+## Disclaimer
+
+This project is not affiliated with CD Projekt Red. All Trademarks referred to are the property of their respective owners.
 
 [paypal-logo]: https://img.shields.io/static/v1?label=PayPal&message=Donate&style=flat-square&logo=paypal&color=blue
 [paypal-url]: https://www.paypal.com/donate/?hosted_button_id=PGVKB863SXYUQ
@@ -49,6 +37,3 @@ If you have any feedback or you need some help, please reach out to me at discor
 
 [coffe-logo]: https://img.shields.io/static/v1?label=BuyMeCoffee&message=Donate&style=flat-square&logo=buy-me-a-coffee&color=yellow
 [coffe-url]: https://www.buymeacoffee.com/patrykbielanin
-
-[website-logo]: https://img.shields.io/website?down_message=offline&style=flat-square&up_message=online&url=https%3A%2F%2Fcyberpunk.pbielanin.pl
-[website-url]: https://cyberpunk.pbielanin.pl
