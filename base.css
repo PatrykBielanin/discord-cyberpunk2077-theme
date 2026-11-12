@@ -422,12 +422,12 @@ body,
   }
 
    /* Selected channel background color */
-  .modeSelected_TNyK-N .link_TNyK-N, .modeSelected_TNyK-N:hover .link_TNyK-N {
-    background: var(--light-neon-red-color);
+  .modeSelected_TNyK-N {
+    background: linear-gradient(var(--light-neon-red-color), var(--light-neon-red-color)), var(--dark-primary-color);
   }
 
-  .wrapper_TNyK-N {
-      background: var(--light-primary-color);
+  .modeSelected_TNyK-N .link_TNyK-N, .modeSelected_TNyK-N:hover .link_TNyK-N {
+    background: transparent;
   }
 
   .link_TNyK-N {
@@ -1018,7 +1018,7 @@ body,
 
    /* Friends list container */
   .container_zrUwGA .peopleColumn_zrUwGA {
-    background: linear-gradient(180deg, rgba(23,0,5,1) 12%, rgba(0,0,0,1) 67%);
+    background: var(--cp-background);
   }
 
   .container_zrUwGA .container_ybUK7Z {
@@ -1137,7 +1137,7 @@ body,
   }
 
   .homeWrapperNormal_8iSxT3 .mainPageScroller_IRnLy8 {
-    background: linear-gradient(180deg, rgba(23,0,5,1) 10%, rgba(0,0,0,1) 65%);
+    background: var(--cp-background);
   }
 
   .theme-dark .card_f8e6bf {
@@ -1159,7 +1159,7 @@ body,
   }
 
   .chat_z_gUBg .content_z_gUBg {
-    background: linear-gradient(180deg, rgba(23,0,5,1) 10%, rgba(0,0,0,1) 65%);
+    background: var(--cp-background);
   }
 
   .chat_z_gUBg .content_z_gUBg .sectionTitle_nMe-a6 {
@@ -1190,7 +1190,7 @@ body,
   }
 
   .shop_Mqg79R .shopViewWrapper_Mqg79R {
-    background: linear-gradient(180deg, rgba(23,0,5,1) 10%, rgba(0,0,0,1) 65%);
+    background: var(--cp-background);
   }
 
   .shop_Mqg79R .shopCard_lmQhFf {
@@ -1208,7 +1208,7 @@ body,
       ===============
   */
   .root_oez3v3 .scroller_0jpYct {
-    background: linear-gradient(180deg, rgba(23,0,5,1) 10%, rgba(0,0,0,1) 65%);
+    background: var(--cp-background);
   }
 
   /* Server boost header */
